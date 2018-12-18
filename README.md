@@ -1,44 +1,102 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## freeCodeCamp Faro
 
-## Available Scripts
+### Task Manager
 
-In the project directory, you can run:
+#### 1. Introduction
 
-### `npm start`
+Hey folks! bla bla bla, bla bla bla...
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This project uses [Create React App](https://facebook.github.io/create-react-app/) which is an officialy supported way to create single-page React applications. It offers a modern build setup with almost no configuration required. 
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+--
 
-### `npm test`
+#### 2. Setting up your editor
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+We've adopted some packages to enforce coding-style, formatting and to prevent bad git commit/push MRs.
 
-### `npm run build`
+Everything is set in the project's *package.json*.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+However, if you are new to programming adventures you may want to configure some code editor add-ons to have a better visual experience.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+**VSCODE packages to install:**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- 1. Babel JavaScript	
+- 2. ESLint
+- 3. Debugger for Chrome
+- 4. Prettier - Code formatter
+- 5. Formatting Toggle (allows you to enable/disable prettier
 
-### `npm run eject`
+If you want to know more about what we're talking about:
+	
+[Babel](https://babeljs.io/docs/en/editors/)
+	
+[ESLint](https://eslint.org/): ESLint is an open source project originally created by Nicholas C. Zakas in June 2013. Its goal is to provide a pluggable linting utility for JavaScript 
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+[Prettier](https://prettier.io/) An opinionated code formatter. Supports many languages. Integrates with most editors.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+[Husky] (https://www.npmjs.com/package/husky) : Husky can prevent bad git commit, git push and more 🐶 woof!
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+--
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 3. Packages adopted in the frontend
 
-## Learn More
+- [React Router](https://reacttraining.com/react-router/) Components are the heart of React's powerful, declarative programming model. React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering--so take your pick!
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Redux] (https://redux.js.org/)
+A predictable state container for JavaScript apps.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- [Bootstrap] (https://getbootstrap.com/)
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+
+- [Reactstrap](https://reactstrap.github.io/)
+Easy to use React Bootstrap 4 components
+
+- [Sass] (https://sass-lang.com/)
+Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+
+- [Lodash] (https://lodash.com/docs/4.17.11)
+A modern JavaScript utility library delivering modularity, performance & extras.
+
+--
+
+#### 4. Pulling the repo
+
+Open your favourite terminal app and go to the folder where you want to pull our repo:
+
+HTTPS: 
+
+	git clone -v https://github.com/freeCodeCamp-Faro/fccfao-taskmanager.git
+	
+
+SSH (if you don't know what SSH is, stick to the HTTPS way):
+
+	git clone -v git@github.com:freeCodeCamp-Faro/fccfao-taskmanager.git
+
+
+Okay, now that you have the repo in your computer just cd into the folder created and do:
+
+	npm install
+	
+This command will grab package.json and pull all the dependencies needed to run the app (node modules).
+
+Then do:
+
+	npm start
+	
+If everything went fine you should be able to open your browser and fire the app in [http://localhost:3000](http://localhost:3000).
+
+--
+
+#### 5. Creating feature branches
+
+To do...
+
+
+#### 6. Creating Pull Requests(PRs)/Merge Requests(MRs)
+
+To do...
+
+-- 
+
+
+	
