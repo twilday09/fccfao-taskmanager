@@ -2,11 +2,35 @@
 
 ### Task Manager
 
+#### 0. Getting started
+
+HTTPS: 
+
+	git clone -v https://github.com/freeCodeCamp-Faro/fccfao-taskmanager.git
+	
+
+SSH (if you don't know what SSH is, stick to the HTTPS way):
+
+	git clone -v git@github.com:freeCodeCamp-Faro/fccfao-taskmanager.git
+
+To install the app packages:
+
+	npm install
+	
+To start the app:
+
+	npm start
+	
+If everything went fine you should be able to open your browser and fire the app in [http://localhost:3000](http://localhost:3000).
+
+--
+
 #### 1. Introduction
 
 Hey folks! bla bla bla, bla bla bla...
 
 This project uses [Create React App](https://facebook.github.io/create-react-app/) which is an officialy supported way to create single-page React applications. It offers a modern build setup with almost no configuration required. 
+
 
 --
 
@@ -18,7 +42,7 @@ Everything is set in the project's *package.json*.
 
 However, if you are new to programming adventures you may want to configure some code editor add-ons to have a better visual experience.
 
-**VSCODE packages to install:**
+**VSCODE extensions to install:**
 
 - 1. Babel JavaScript	
 - 2. ESLint
@@ -56,45 +80,6 @@ Sass is the most mature, stable, and powerful professional grade CSS extension l
 
 - [Lodash] (https://lodash.com/docs/4.17.11)
 A modern JavaScript utility library delivering modularity, performance & extras.
-
---
-
-#### 4. Pulling the repo
-
-Open your favourite terminal app and go to the folder where you want to pull our repo:
-
-HTTPS: 
-
-	git clone -v https://github.com/freeCodeCamp-Faro/fccfao-taskmanager.git
-	
-
-SSH (if you don't know what SSH is, stick to the HTTPS way):
-
-	git clone -v git@github.com:freeCodeCamp-Faro/fccfao-taskmanager.git
-
-
-Okay, now that you have the repo in your computer just cd into the folder created and do:
-
-	npm install
-	
-This command will grab package.json and pull all the dependencies needed to run the app (node modules).
-
-Then do:
-
-	npm start
-	
-If everything went fine you should be able to open your browser and fire the app in [http://localhost:3000](http://localhost:3000).
-
---
-
-#### 5. Creating feature branches
-
-To do...
-
-
-#### 6. Creating Pull Requests(PRs)/Merge Requests(MRs)
-
-To do...
 
 -- 
 
