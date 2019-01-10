@@ -1,45 +1,87 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## freeCodeCamp Faro
 
-We need to do a proper README file
-## Available Scripts
+### Task Manager
 
-In the project directory, you can run:
+#### 0. Getting started
 
-### `npm start`
+HTTPS: 
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+	git clone -v https://github.com/freeCodeCamp-Faro/fccfao-taskmanager.git
+	
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+SSH (if you don't know what SSH is, stick to the HTTPS way):
 
-### `npm test`
+	git clone -v git@github.com:freeCodeCamp-Faro/fccfao-taskmanager.git
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+To install the app packages:
 
-### `npm run build`
+	npm install
+	
+To start the app:
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+	npm start
+	
+If everything went fine you should be able to open your browser and fire the app in [http://localhost:3000](http://localhost:3000).
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+--
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 1. Introduction
 
-### `npm run eject`
+Hey folks! bla bla bla, bla bla bla...
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+This project uses [Create React App](https://facebook.github.io/create-react-app/) which is an officialy supported way to create single-page React applications. It offers a modern build setup with almost no configuration required. 
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+--
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+#### 2. Setting up your editor
 
-## Learn More
+We've adopted some packages to enforce coding-style, formatting and to prevent bad git commit/push MRs.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Everything is set in the project's *package.json*.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+However, if you are new to programming adventures you may want to configure some code editor add-ons to have a better visual experience.
+
+**VSCODE extensions to install:**
+
+- 1. Babel JavaScript	
+- 2. ESLint
+- 3. Debugger for Chrome
+- 4. Prettier - Code formatter
+- 5. Formatting Toggle (allows you to enable/disable prettier
+
+If you want to know more about what we're talking about:
+	
+[Babel](https://babeljs.io/docs/en/editors/)
+	
+[ESLint](https://eslint.org/): ESLint is an open source project originally created by Nicholas C. Zakas in June 2013. Its goal is to provide a pluggable linting utility for JavaScript 
+
+[Prettier](https://prettier.io/) An opinionated code formatter. Supports many languages. Integrates with most editors.
+
+[Husky] (https://www.npmjs.com/package/husky) : Husky can prevent bad git commit, git push and more 🐶 woof!
+
+--
+
+#### 3. Packages adopted in the frontend
+
+- [React Router](https://reacttraining.com/react-router/) Components are the heart of React's powerful, declarative programming model. React Router is a collection of navigational components that compose declaratively with your application. Whether you want to have bookmarkable URLs for your web app or a composable way to navigate in React Native, React Router works wherever React is rendering--so take your pick!
+
+- [Redux] (https://redux.js.org/)
+A predictable state container for JavaScript apps.
+
+- [Bootstrap] (https://getbootstrap.com/)
+Bootstrap is an open source toolkit for developing with HTML, CSS, and JS. Quickly prototype your ideas or build your entire app with our Sass variables and mixins, responsive grid system, extensive prebuilt components, and powerful plugins built on jQuery.
+
+- [Reactstrap](https://reactstrap.github.io/)
+Easy to use React Bootstrap 4 components
+
+- [Sass] (https://sass-lang.com/)
+Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.
+
+- [Lodash] (https://lodash.com/docs/4.17.11)
+A modern JavaScript utility library delivering modularity, performance & extras.
+
+-- 
+
+
+	
