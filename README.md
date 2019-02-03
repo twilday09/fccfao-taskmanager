@@ -45,11 +45,11 @@ However, if you are new to programming adventures you may want to configure some
 
 **VSCODE extensions to install:**
 
-- 1. Babel JavaScript	
-- 2. ESLint
-- 3. Debugger for Chrome
-- 4. Prettier - Code formatter
-- 5. Formatting Toggle (allows you to enable/disable prettier
+1. Babel JavaScript	
+2. ESLint
+3. Debugger for Chrome
+4. Prettier - Code formatter
+5. Formatting Toggle (allows you to enable/disable prettier
 
 If you want to know more about what we're talking about:
 	
