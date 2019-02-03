@@ -1,5 +1,5 @@
 ## freeCodeCamp Faro
----
+
 ### Task Manager
 
 ---
