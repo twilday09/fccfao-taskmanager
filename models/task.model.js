@@ -14,7 +14,18 @@ let TaskSchema = new Schema({
     parentTask: {type: Number},
     subTasks: {type: [Number]},
     labels: {type: [String]}
- });
+});
 
-// Export task model
-module.exports = mongoose.model('Task', TaskSchema);
+let TaskModel = mongoose.model('Task', TaskSchema);
+
+ /**
+ * Find document by id
+ * @param {any} _id of a Task document. null value returns all documents for Task collection 
+ * @param {Request} Request object 
+ * @param {Response} Response object 
+ */
+exports.find = function(_id, req, res) {
+    TaskModel.find(_id ? {"_id" : _id} : {})
+             .then(doc => res.json(doc))
+             .catch(err => res.send(err))
+}
