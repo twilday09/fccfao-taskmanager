@@ -29,3 +29,5 @@ exports.find = function(_id, req, res) {
              .then(doc => res.json(doc))
              .catch(err => res.send(err))
 }
+
+module.exports = TaskModel
