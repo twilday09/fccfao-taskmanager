@@ -22,11 +22,9 @@
   },
   "homepage": "https://github.com/freeCodeCamp-Faro/fccfao-taskmanager#readme",
   "dependencies": {
-    "body-parser": "^1.18.3",
     "dotenv": "^6.2.0",
     "express": "^4.16.4",
-    "mongodb": "^3.1.13",
-    "mongoose": "^5.4.7"
+    "mongoose": "^5.4.14"
   },
   "devDependencies": {}
 }
