@@ -1,12 +1,12 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
-import AppHome from '../components/AppHome';
-import AppAbout from '../components/AppAbout';
+import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
+import Home from '../views/Home';
+import About from '../views/About';
 import Header from '../components/Header';
 
 const AppRouter = () => {
   return (
-    <Router>
+    <BrowserRouter>
       <div>
         <Header />
         <ul>
@@ -17,10 +17,12 @@ const AppRouter = () => {
             <Link to="/about">About</Link>
           </li>
         </ul>
-        <Route path="/" component={AppHome} exact="true" />
-        <Route path="/about" component={AppAbout} />
+        <Switch>
+          <Route path="/" component={Home} exact />
+          <Route path="/about" component={About} />
+        </Switch>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 };
 
